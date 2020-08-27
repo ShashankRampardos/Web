@@ -1,0 +1,107 @@
+body{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(63,6,179,1) 35%, rgba(252,176,69,1) 100%);
+padding:50px;
+}
+
+.abs{
+    
+    position: absolute;
+    top: 330px ;
+    left:380px;
+    width: 0;
+    height: 0;
+    border-left: 142px solid transparent;
+    border-right: 142px solid transparent;
+    border-top: 240px solid rgb(5, 49, 100);
+}
+.head{
+    position: absolute;
+    top: 248px;
+    left: 486px;
+    width: 75px;
+    border-top: 75px solid rgb(5, 49, 100);
+}
+.arm1{
+    position: absolute;
+    top:369px;
+    left: 368px;
+    border-top:127px solid;
+    width:32px;
+    border-color:rgb(5, 49, 100);
+}
+.arm2{
+    position: absolute;
+    top:368px;
+    left: 644px;
+    border-top:127px solid;
+    width:32px;
+    border-color:rgb(5, 49, 100);
+}
+.forearm1{
+    position: absolute;
+    top:500px;
+    left: 368px;
+    border-top:127px solid;
+    width:32px;
+    border-color:rgb(5, 49, 100);
+}
+.forearm2{
+    position: absolute;
+    top:500px;
+    left: 644px;
+    border-top:127px solid;
+    width:32px;
+    border-color:rgb(5, 49, 100);
+}
+.leg1{
+    position: absolute;
+    top:537px;
+    left: 451px;
+    border-top:160px solid;
+    width:50px;
+    border-color:rgb(5, 49, 100);
+}
+.leg2{
+    position: absolute;
+    top:537px;
+    left: 544px;
+    border-top:160px solid;
+    width:50px;
+    border-color:rgb(5, 49, 100);
+}
+.foreleg1{
+    position: absolute;
+    top:702px;
+    left: 450px;
+    border-top:160px solid;
+    width:50px;
+    border-color:rgb(5, 49, 100);
+}
+.foreleg2{
+    position: absolute;
+    top:702px;
+    left: 544px;
+    border-top:160px solid;
+    width:50px;
+    border-color:rgb(5, 49, 100);
+}
+.foot1{
+    position: absolute;
+    top: 865px;
+    left:441px;
+    border-top:35px solid;
+    width:65px;
+    border-color:rgb(5, 49, 100);
+}
+.foot2{
+    position: absolute;
+    top: 865px;
+    left:538px;
+    border-top:35px solid;
+    width:65px;
+    border-color:rgb(5, 49, 100);
+}
+.divman{
+    background-color: rgb(33, 94, 163);
+}

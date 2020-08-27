@@ -1,0 +1,115 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(115,161,42,1) 57%, rgba(253,187,45,1) 100%);
+}
+#robot
+{
+    width: 300px;
+    height: 800px;
+    margin: 50px auto 0;
+    position:relative; 
+    border: 1px solid rgb(54, 17, 17);
+
+}
+.look{
+    background-color: peru;
+    width:inherit;
+    height: inherit;
+}
+#head
+{
+    width:75px;
+    height:75px;
+    border-radius:20px;
+    position:absolute;
+    top: 0;
+    left: 110px;
+}
+#head:hover{
+ background-color: rgb(255, 0, 0);
+}  
+    
+#torso
+{   position: absolute;
+    top:80px;
+    left:50px;
+    border-radius: 45px;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 230px solid peru;
+}
+#torso:hover
+{
+    background-color: rgb(228, 28, 68);
+}
+#leftarm
+{   
+    width:25px;
+    height: 240px;
+    position: absolute;
+    top:110px;
+    left:30px;
+}
+#rightarm
+{   
+    width:25px;
+    height: 240px;
+    position: absolute;
+    top:110px;
+    right:30px;
+}
+.upperarm
+{
+    width: 25px;
+    height: 120px;
+}
+.forearm
+{  
+    width: 25px;
+    height:100px;
+    margin-top:10px;
+}
+#leftleg
+{
+    width:30px;
+    height: 340px;
+    position: absolute;
+    top:280px;
+    left:85px;
+}
+#rightleg
+{
+    width:30px;
+    height: 340px;
+    position: absolute;
+    top:280px;
+    right:85px;
+}
+.thai{
+    width:30px;
+    height:150px;
+}
+.lowerleg{
+    width:30px;
+    height:170px;
+    margin-top:10px;
+}
+.shoeleft
+{
+    width:33px;
+    height:10px;
+    
+   
+    background-color: rgb(20, 80, 82);
+}
+.shoeright{
+    width:33px;
+    height:10px;
+    position: relative;
+   
+    background-color: rgb(20, 80, 82);
+}

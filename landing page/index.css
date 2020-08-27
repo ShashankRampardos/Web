@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    color: #2c0a0a;
+    background-color: #6b6a96;
+} 
+.navbar{
+    background-color: rgb(32, 4, 4);
+    padding: 10px;
+    height: 70px;
+
+    
+}
+.navbar>.navbar-brand>.navbar-link{
+    color: goldenrod;
+    text-decoration-color: aqua ;
+    font-family: fantasy;
+    text-transform: capitalize ;
+
+}
+.hero{
+    height: 500px;
+    background: rgb(175, 114, 0);
+   
+    background: rgb(58,166,107);
+    background: radial-gradient(circle, rgba(58,166,107,0.9023984593837535) 25%, rgba(0,212,255,1) 69%, rgba(2,0,36,1) 97%);
+    /* background: url(https://source.unsplash.com/1920x1080/?space) no-repeat center; */
+    color: #ffffff;
+    text-align: center;
+    padding:75px;
+}
+.logo{
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:rgb(71, 187, 187);
+    border-left
+}
+.row{
+    display:inline-block;
+}
+.article1,.article2,.article3{
+    display:inline-block;
+    padding: 10px;
+    
+    width: 33%;
+    box-sizing: border-box; 
+}
+.articleimg{
+   max-width:90%;
+}
+.articletag{
+    border: 2px solid rgb(11, 201, 191);
+    background-color: green;
+    padding:2px;
+    border-radius:5px;
+
+}

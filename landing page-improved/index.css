@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    color: #611616;
+    background-color: #c2c1ec;
+} 
+
+
+    
+.logo{
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:rgb(71, 187, 187);
+    position: fixed;
+    top:10px;
+    right: 10px;
+}
+.navbar>.navbar-brand{
+    display:inline-block;
+}
+
+.navbar{
+    color: rgb(214, 118, 118);
+    font-size:2em;
+    
+}
+.sticky{
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 8%;
+}
+.navbar:hover{
+box-shadow: 5px 10px 3px 2px rgba(0, 0, 0, 0.466),inset 0px -10px 20px rgba(0, 0, 0, 0.315);
+
+} 
+.main-nav{
+    list-style: none;
+    margin: none;
+    font-size:0.7em;
+    
+}
+.main-nav>li{
+    display:inline-block;
+    padding:20px;
+}
+li>a{
+    color: rgb(224, 221, 211);
+    text-decoration: none;
+    text-shadow:2px 3px black;
+}
+li>a:hover
+{
+    color:burlywood
+}
+
+.hero{
+    height: 500px;
+    /* background: rgb(175, 114, 0); */
+   
+    
+    background: rgb(58,166,107);
+    background: radial-gradient(circle, rgba(58,166,107,0.9023984593837535) 25%, rgba(0,212,255,1) 69%, rgba(2,0,36,1) 97%);
+    background: url(https://source.unsplash.com/1920x1080/?space) no-repeat center;
+    color: #ffffff;
+    text-align: center;
+    padding:140px;
+
+}
+.hero>.cont>h1
+{
+    font-family: fantasy;
+}
+.row{
+    display:inline-block;
+}
+.article1,.article2,.article3{
+    display:inline-block;
+    padding: 10px;
+    
+    width: 33%;
+    box-sizing: border-box; 
+}
+.articleimg{
+   max-width:90%;
+}
+.articletag{
+    border: 2px ridge rgb(11, 201, 191);
+    background-color: green;
+    padding:2px;
+    border-radius:5px;
+}
