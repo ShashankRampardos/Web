@@ -1,0 +1,21 @@
+.container{
+    border:2px solid burlywood;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width: fit-content;
+}
+.containerchild{
+    display:flex;
+    flex-direction:column;
+}
+.box{
+    background-color: chartreuse;
+    text-align:center;
+    border:1px solid rgb(42, 71, 8);
+    text-shadow:10px 15px rgb(94, 8, 8);
+    font-size:34px; 
+    padding:10px;   
+    width:100px;
+    box-sizing: border-box;
+}
