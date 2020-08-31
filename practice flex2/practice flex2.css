@@ -1,0 +1,36 @@
+.container{
+    border:2px solid coral;
+    background-color: cornflowerblue;
+    flex-direction: row;
+    display:flex;
+    flex-wrap: wrap;
+}
+.box{
+    border: 5px ridge rgb(245, 185, 21);
+    background-color: dimgrey;
+    color: #ffd753;
+    font-size: 150px;
+    padding:10px;
+    
+    text-align:center;
+    text-shadow:10px 15px rgb(19, 18, 18);
+    width:100px;
+    box-sizing: content-box;
+    flex:1;
+}
+.box3:hover{
+transform: scale(1.1);
+background-color: cornflowerblue;
+}
+.box2:hover{
+    transform:rotate(30deg);
+    color: crimson;
+}
+/* background-color: rgb(111, 185, 36);
+
+border:1px solid rgb(42, 71, 8);
+
+font-size:34px; 
+padding:10px;   
+
+ */
