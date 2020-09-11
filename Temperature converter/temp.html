@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="D:\WEB\Temperature converter\temp.css">
+</head>
+<body>
+   <h1> <spa class="border"><span id="T">Temperature</span> <span id="C">Converter</span></span></h1>
+   <div class="container1 container2">
+       <div class="input">
+           <input 
+           onkeyup="ctof()"
+           class="C" 
+           type="text" 
+           name="tempc" 
+           id="tempc" 
+           placeholder="Celsius">
+           <br>
+           <span class="tagc">Celsius</span>
+       </div>
+       <div class="output">
+           <input 
+           onkeyup="ftoc()"
+           class="F"
+           type="text" 
+           name="tempf" 
+           id="tempf" 
+           placeholder="Farenhite">
+           <br>
+           <span class="tagf">Farenhite</span>
+       </div>
+   </div>
+
+
+<script src="D:\WEB\Temperature converter\temp.js"></script>   
+</body>
+</html>
