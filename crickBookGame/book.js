@@ -16,9 +16,13 @@ function crkbook(){
         return `5 turns are over:
                 Final score is ${total}`;
         else{
-            if(score==2||score==4||score==6)
-        total=total+score;
+              if(isNAN(score)){
+                if(score==2||score==4||score==6)  
+                   total=total+score;
         return`Turn-${turns} Your current score is ${total}`;
+                              }
+             else
+                console.log(`Please enter a valid number`);
             }
                           };
                     }
