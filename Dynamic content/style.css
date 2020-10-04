@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+
+}
+.para{
+    color: brown;
+    font-size: 28px;
+    background-color: #fff;
+}
+.on{
+    width: 90px;
+    height: 20px;
+    color: coral;
+}
+.FLEX{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.im{
+    
+    width:300px;
+    height:300px;
+    border:2px rgb(236, 40, 40);
+    border-style: groove;
+    border-radius: 15px;;
+    
+}
