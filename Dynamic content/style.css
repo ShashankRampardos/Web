@@ -17,6 +17,20 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
+.button{
+    position:absolute;
+}
+.BT1{
+    background-color: rgb(230, 51, 51);
+    color: antiquewhite;
+    position: fixed;
+    
+}
+.BT2{
+    background-color: rgb(230, 51, 51);
+    color: antiquewhite;
+    position: fixed;
+    left:50px;
 .im{
     
     width:300px;
