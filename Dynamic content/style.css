@@ -3,9 +3,9 @@ body{
 
 }
 .para{
-    color: brown;
+    color: rgba(70, 26, 26, 0.473);
     font-size: 28px;
-    background-color: #fff;
+    background-color: rgb(28, 161, 124);
 }
 .on{
     width: 90px;
