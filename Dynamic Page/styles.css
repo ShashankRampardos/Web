@@ -112,22 +112,62 @@ body{
 }
 .hd1{
     
-    color: cadetblue;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+
+}
 
 }
 .hero{
-    height: 1000px;
+    height: 1500px;
     /* background: rgb(175, 114, 0); */
    
     
-    background: rgb(58,166,107);
-    background: radial-gradient(circle, rgba(58,166,107,0.9023984593837535) 25%, rgba(0,212,255,1) 69%, rgba(2,0,36,1) 97%);
-    background: url(https://source.unsplash.com/1920x1080/?fire) no-repeat center;
-    /* color: #ffffff; */
+   
     text-align: center;
     /* padding:0px; */
 
 }
 .hd{
     padding: 270px;
+    background: rgb(58,166,107);
+    background: radial-gradient(circle, rgba(58,166,107,0.9023984593837535) 25%, rgba(0,212,255,1) 69%, rgba(2,0,36,1) 97%);
+    background: url(https://source.unsplash.com/1920x1080/?sky) no-repeat center;
+    
+}
+.hd1{
+    color: #1192dd;
+}
+.herop{
+ font-size:28px;   
+}
+.row{
+    display: inline-block;
+    padding:3px;
+}
+.article{
+    display: inline-block;
+    padding: 3px;
+    width: 33%;
+    box-sizing: border-box; 
+}
+
+.learn
+{
+    border: solid rgb(0, 2, 3) 2px;
+    background-color:  rgb(20, 62, 97);
+    font-size:18px;
+    color: azure;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+.title{
+    font-size: 30px;
+    color: rgb(21, 75, 126);
+}
+.text
+{
+    color azure;
 }
