@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background: rgb(253,187,45);
+background: radial-gradient(circle, rgba(253,187,45,1) 0%, rgba(34,181,195,1) 0%, rgba(3,53,136,1) 70%);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .container{
+            width:45%;
+            height:33em;
+            background: rgb(3,53,136);
+background: linear-gradient(146deg, rgba(3,53,136,0.5858718487394958) 0%, rgba(3,54,117,0.8939950980392157) 14%, rgba(3,54,110,0.8827906162464986) 28%, rgba(3,54,99,0.7987570028011204) 34%, rgba(2,56,46,0.8827906162464986) 63%, rgba(33,154,166,0.8267682072829132) 94%);
+       
+        border-radius: 20px;
+            
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+}
+        .time-box{
+            width:2.3em;
+            height:1em;
+            /* display: flex;
+            align-items: center;
+            justify-content:center; */
+            font-size: 5.5em;
+        }
+        .button-box{
+            display: flex;
+            justify-content: space-between;
+        }
+        .start{
+            width:70px;
+            height:30px;
+            margin:3x;
+            
+            background-image: linear-gradient(to left, #193155, #003a53, #003f41, #0b412a, #333f18);
+        }
+        .stop{
+            width:70px;
+            height:30px;
+            margin:3x;
+            
+            background-image: linear-gradient(to right, #2b446b, #005c82, #00758b, #008b85, #2c9f72);
+        }
+        .reset{
+            width:70px;
+            height:30px;
+            margin:3x;
+            
+            background-image: linear-gradient(to right, #f00c0c, #db3410, #c64417, #b24e21, #9f542c);
+        }
+
+    </style>
+    <div class="container">
+       <div class="time-box">
+           <span class="minute">00</span>:<span class="second">00</span>
+       </div>
+       
+       <div class="button-box">
+        <button class="start">START</button>
+        <button class="stop">STOP</button>
+        <button class="reset">RESET</button>
+       </div>
+    </div>
+    <script src="D:\WEB\STOP Watch\script.js"></script>
+</body>
+</html>
