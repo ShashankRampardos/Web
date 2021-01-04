@@ -1,0 +1,52 @@
+body{
+    height: 1000px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(48, 49, 51);
+}
+.container{
+    width:55%;
+    height:600px;
+    background-color:rgb(48, 49, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#dotBox{
+    box-sizing: border-box;
+    width:80%;
+    height:75%;
+    background-color:rgb(48, 49, 51);
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#colorPicker{
+    width:55%;
+    height:6%;
+    background-color:rgb(78, 80, 83);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.dots{
+    width:13%;
+    height:12%;
+    margin:2%;
+    background-color:rgb(78, 80, 83);
+    border-radius: 30px;
+}
+.color{
+    width:9%;
+    height:79%;
+    margin:1%;
+    border-radius: 30px;
+}
+.color:hover{ 
+    transform: scale(1.8);}
