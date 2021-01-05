@@ -18,6 +18,18 @@
 // c3.addEventListener('click',brush(`green`));
 // c4.addEventListener('click',brush(`blue`));
 // c5.addEventListener('click',brush(`pink`));
+
+
+// IIFE:-
+// (function()
+// {
+//     let some_variables;
+
+//     // some statements;
+// })();
+
+(function()
+{
 console.log('hi');
 let selectedColor="#fff";
 init();
@@ -49,3 +61,4 @@ function  colorSelector()
                                              } 
 
 }
+})();
