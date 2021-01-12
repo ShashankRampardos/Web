@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO App</title>
+</head>
+
+<body>
+    <style>
+       body{
+           background-color: rgba(4, 21, 34, 0.705);
+           color: rgba(231, 19, 19, 0.678);
+           display:flex;
+        flex-direction: column;   
+        /* justify-content:center; */
+        align-items: center;
+       }
+       /* #container{
+        max-width:100%;
+        
+
+       } */
+       .lists{
+        width: 50%;
+        height: 3em;
+        background-color: rgba(128, 8, 8, 0.678);
+        color: #000;
+        font-size: 1.5em;
+        box-sizing: border-box;
+        border-radius: 3em;
+       }
+       li:hover{
+           text-decoration: line-through;
+       }
+       .itemBox{
+           width:60%;
+           height:fit-content;
+           padding-left: 5em;
+           border:0.5em;
+           border-color:  rgba(128, 8, 8, 0.678);
+           border-style: groove;
+           
+       }    
+       .item{
+           font-size:2em;
+           color: rgba(128, 8, 8, 0.678);    
+           list-style: upper-roman;
+            }
+    </style>
+  <!-- <div class="container"> -->
+    <h1 style="color:rgb(247, 203, 11) ; ">TO DO APP</h1>
+    <input type="text" placeholder="TO DO LIST" class="lists">
+    <ul class="itemBox"></ul>
+  <!-- </div>   -->
+<script src="D:\WEB\TO DO App\script.js"></script>
+</body>
+</html>
