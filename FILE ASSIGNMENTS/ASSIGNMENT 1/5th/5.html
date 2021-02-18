@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date()</title>
+</head>
+<body>
+    <div> <span>THIS PAGE WAS CREATED ON 16-2-2021</span></p></div>
+    
+</body>
+<script>
+    var d = new Date();
+    var title = document.querySelector('title');
+    // var span = document.querySelector('#d');
+    var t = d.getTime();
+    var sec = d.getSeconds();
+    var min = d.getMinutes();
+    var h = d.getHours();
+    var day=d.getDate();
+    var m=d.getMonth();
+    var y=d.getFullYear();
+    
+    title.innerText = `Date:${day}-${m+1}-${y} Time:${h}:${min}:${sec}`;
+    // span.innerText = `Date:${day}-${m+1}-${y} Time:${h}:${min}:${sec}`;
+</script>
+</html>
