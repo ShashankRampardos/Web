@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><input onkeyup="fun()" type="text" name="" id="char">
+         <span id="output"></span>
+    </div>
+</body>
+<script>
+    let input = document.querySelector('input');
+    let output = document.querySelector('#output');  
+    function fun(){ //let input = document.querySelector('#char');
+    // const text = input.value;
+    //  console.log(text);
+    //  console.log(input.value);
+ let text= (input.value);
+ let index = text.length-1;
+    output.innerText = `OUTPUT:${text.charCodeAt(index)}`;
+   }
+// input.addEventListener('onkeyup',fun);   
+   </script>
+</html>
