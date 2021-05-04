@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="GET" ><!--GET (embed data in url) is for non confidential data AND POST is for confidential data-->
+        <h1>Payment Form</h1>
+        <p>Required fieles are followed by *</p>
+        <h2>Contact Information</h2>
+        <p>First Name:*<label for="fname"><input type="text" name="fname" id="fname" required></label></p>
+        <p>Last Name:*<label for="lname"><input type="text" name="lname" id="lname" required></label>
+        </p>
+        <fieldset>
+            <legend>Gender*</legend>
+                <p>
+                    Male:<label for="gender"><input type="radio" name="gender" required id="male"></label>
+                    Female:<label for="gender"><input type="radio" required name="gender" id="female"></label>
+                </p>
+        </fieldset>
+        <p>Address: <textarea name="address" id="address" cols="20" rows="5"></textarea><label for=""></label></p>
+        <p>PinCode:*<input required type="number" name="pin" id="pin"></p>
+        <p>Email:*<input required type="email" name="email" id="email"></p>
+        <p>Password:*<input required type="password" name="password" id="password"></p>
+
+        <h2>Payment Information</h2>
+          <p>
+              CardType:*
+              <select name="CardType" id="CardType" required>
+                  <option value="">--Select a Card Type--</option><!-- first option option is empty because in case user do not select any option server  can detect card type is empty-->
+                  <option value="visa">Visa</option><!--value will be sent to server-->
+                  <option value="master">Master Card</option>
+                  <option value="rupay">Rupay</option>
+              </select>
+
+          </p>
+        <p>Card Number:*<input type="number" name="Cnum" id="Cnum" required></p>  
+        <p>Expiry Date:*<input type="date" name="date" id="date" required></p>  
+        <p>CVV:*<input type="password" name="cvv" id="cvv" required></p>  
+
+        <input type="submit" value="Pay Now">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
